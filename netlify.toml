@@ -1,6 +1,9 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  # When using @netlify/plugin-nextjs the plugin writes the final public files
+  # to .netlify/output/public. Point publish to that directory so Netlify serves
+  # the correct built output.
+  publish = ".netlify/output/public"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
