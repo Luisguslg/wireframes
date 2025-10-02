@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import { X, Search, Route, GitCompare, Heart, CreditCard, ArrowRight, ArrowLeft } from "lucide-react"
+import { X, ArrowRight, ArrowLeft, Search, Heart, Route, GitCompare, CreditCard } from "lucide-react"
 
 interface OnboardingStep {
   id: number
