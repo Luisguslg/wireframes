@@ -62,3 +62,13 @@ npm audit fix
 
 Contacto
 - Si quieres que automatice scripts adicionales (`run-dev.ps1`, `run-prod.ps1`) o limpiar dependencias no usadas, dime y lo hago.
+
+Netlify (deploy)
+-----------------
+Si deseas desplegar en Netlify (recomendado con el plugin Next), puedes conectar este repositorio a Netlify y usar la siguiente configuración.
+
+1. Añadí un `netlify.toml` al repo para integrar con `@netlify/plugin-nextjs`.
+2. En Netlify UI: conecta el repo, configura build command `npm run build` y (si solicita) el publish directory `out`.
+3. Asegúrate de añadir las variables de entorno necesarias en Netlify (p.ej. cualquier `NEXT_PUBLIC_...` o keys).
+
+Si quieres, puedo hacer el push del branch actual a tu repo remoto para que puedas conectar Netlify inmediatamente.
