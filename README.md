@@ -72,3 +72,20 @@ Si deseas desplegar en Netlify (recomendado con el plugin Next), puedes conectar
 3. Asegúrate de añadir las variables de entorno necesarias en Netlify (p.ej. cualquier `NEXT_PUBLIC_...` o keys).
 
 Si quieres, puedo hacer el push del branch actual a tu repo remoto para que puedas conectar Netlify inmediatamente.
+
+## Rutas del proyecto
+
+He añadido un archivo `ROUTES.md` con la lista completa y categorizada de rutas (públicas, dinámicas, admin y proveedor) y ejemplos completos usando la URL base del despliegue.
+
+- Archivo con las rutas: `ROUTES.md`
+- URL base pública (preview/producción): https://wireframes-nine.vercel.app/
+
+Consejo rápido: para probar localmente ejecuta:
+
+```powershell
+npm ci
+npm run dev
+# abre http://localhost:3000 en tu navegador
+```
+
+Si quieres que fusione el contenido de `ROUTES.md` directamente dentro de este README (en español o en inglés), dime cómo prefieres el formato y lo actualizo.
