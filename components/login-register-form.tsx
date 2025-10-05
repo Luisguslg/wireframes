@@ -43,7 +43,7 @@ export function LoginRegisterForm() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("[v0] Login attempt:", { loginEmail, rememberMe })
+    console.log("Login attempt:", { loginEmail, rememberMe })
     // Add login logic here
   }
 
@@ -57,7 +57,7 @@ export function LoginRegisterForm() {
       alert("La contraseña no cumple con los requisitos de seguridad")
       return
     }
-    console.log("[v0] Register attempt:", {
+    console.log("Register attempt:", {
       registerName,
       registerEmail,
       registerPhone,
@@ -68,7 +68,7 @@ export function LoginRegisterForm() {
   }
 
   const handleSocialLogin = (provider: string) => {
-    console.log("[v0] Social login with:", provider)
+    console.log("Social login with:", provider)
     // Add social login logic here
   }
 

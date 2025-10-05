@@ -657,7 +657,7 @@ export function ProviderPortal() {
             <Button
               className="bg-[#E91E63] hover:bg-[#C2185B]"
               onClick={() => {
-                console.log("[v0] Updating inventory:", selectedItem?.name)
+                console.log("Updating inventory:", selectedItem?.name)
                 setUpdateDialogOpen(false)
               }}
             >

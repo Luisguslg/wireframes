@@ -632,7 +632,7 @@ export function ServicesManagement() {
             <Button
               variant="destructive"
               onClick={() => {
-                console.log("[v0] Deleting service:", selectedService?.name)
+                console.log("Deleting service:", selectedService?.name)
                 setDeleteDialogOpen(false)
               }}
             >

@@ -125,12 +125,12 @@ export function PackagesManagement() {
   }
 
   const handleDuplicate = (pkg: TourPackage) => {
-    console.log("[v0] Duplicating package:", pkg.name)
+    console.log("Duplicating package:", pkg.name)
     // Logic to duplicate package
   }
 
   const handlePublish = (pkg: TourPackage) => {
-    console.log("[v0] Publishing package:", pkg.name)
+    console.log("Publishing package:", pkg.name)
     // Logic to publish/unpublish package
   }
 
@@ -433,7 +433,7 @@ export function PackagesManagement() {
             <Button
               variant="destructive"
               onClick={() => {
-                console.log("[v0] Deleting package:", selectedPackage?.name)
+                console.log("Deleting package:", selectedPackage?.name)
                 setDeleteDialogOpen(false)
               }}
             >

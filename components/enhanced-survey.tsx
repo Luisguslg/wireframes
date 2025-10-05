@@ -34,7 +34,7 @@ export function EnhancedSurvey() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("[v0] Survey submitted:", {
+    console.log("Survey submitted:", {
       npsScore,
       ratings,
       bestFeatures,

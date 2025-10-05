@@ -283,7 +283,7 @@ export function SustainabilityManagement() {
               <Button
                 variant="destructive"
                 onClick={() => {
-                  console.log("[v0] Deleting offset:", selectedOffset?.name)
+                  console.log("Deleting offset:", selectedOffset?.name)
                   setDeleteDialogOpen(false)
                 }}
               >

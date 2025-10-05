@@ -377,7 +377,7 @@ export function RestaurantsManagement() {
             <Button
               variant="destructive"
               onClick={() => {
-                console.log("[v0] Deleting restaurant:", selectedRestaurant?.name)
+                console.log("Deleting restaurant:", selectedRestaurant?.name)
                 setDeleteDialogOpen(false)
               }}
             >

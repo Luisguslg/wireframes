@@ -344,7 +344,7 @@ export function IntegrationsManagement() {
             <Button
               variant="destructive"
               onClick={() => {
-                console.log("[v0] Deleting integration:", selectedIntegration?.name)
+                console.log("Deleting integration:", selectedIntegration?.name)
                 setDeleteDialogOpen(false)
               }}
             >

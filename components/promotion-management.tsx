@@ -372,7 +372,7 @@ export function PromotionManagement() {
             <Button
               variant="destructive"
               onClick={() => {
-                console.log("[v0] Deleting promotion:", selectedPromo?.name)
+                console.log("Deleting promotion:", selectedPromo?.name)
                 setDeleteDialogOpen(false)
               }}
             >
