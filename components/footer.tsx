@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Youtube } from "lucide-react"
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Youtube, Shield, Building2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
@@ -51,6 +51,11 @@ export function Footer() {
               <li>
                 <Link href="/politicas-cancelacion" className="text-white/70 transition-colors hover:text-[#E91E63]">
                   Políticas de Cancelación
+                </Link>
+              </li>
+              <li>
+                <Link href="/reclamos" className="text-white/70 transition-colors hover:text-[#E91E63]">
+                  Reclamos y Encuestas
                 </Link>
               </li>
               <li>
@@ -154,7 +159,27 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm text-white/70">
+        <div className="mt-8 border-t border-white/10 pt-6">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
+            <Link
+              href="/admin/login"
+              className="flex items-center gap-2 text-white/60 transition-colors hover:text-white"
+            >
+              <Shield className="h-4 w-4" />
+              Acceso Administradores
+            </Link>
+            <span className="text-white/30">•</span>
+            <Link
+              href="/proveedor/login"
+              className="flex items-center gap-2 text-white/60 transition-colors hover:text-white"
+            >
+              <Building2 className="h-4 w-4" />
+              Portal de Proveedores
+            </Link>
+          </div>
+        </div>
+
+        <div className="mt-6 border-t border-white/10 pt-8 text-center text-sm text-white/70">
           <p>&copy; {new Date().getFullYear()} ViajesUCAB. Todos los derechos reservados.</p>
           <p className="mt-2">RIF: J-12345678-9 | Licencia de Turismo: LT-2024-001</p>
         </div>

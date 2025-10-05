@@ -15,7 +15,7 @@ export function AboutSection() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="flex flex-col items-center text-center">
               <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#E91E63]/10">
                 <Shield className="h-8 w-8 text-[#E91E63]" />

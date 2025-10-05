@@ -6,7 +6,7 @@ export function MissionVisionSection() {
     <section className="bg-muted/30 py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-5xl">
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-2">
             <Card className="border-none p-8 shadow-lg">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E91E63]/10">
                 <Target className="h-6 w-6 text-[#E91E63]" />

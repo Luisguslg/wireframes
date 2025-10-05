@@ -6,24 +6,27 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { AboutSection } from "@/components/about-section"
 import { MissionVisionSection } from "@/components/mission-vision-section"
 import { Footer } from "@/components/footer"
+import { OnboardingProvider } from "@/components/onboarding-provider"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <HeroCarousel />
+    <OnboardingProvider>
+      <div className="min-h-screen">
+        <Header />
+        <main>
+          <HeroCarousel />
 
-        <DestinationsSection />
+          <DestinationsSection />
 
-        <PromotionsSection />
+          <PromotionsSection />
 
-        <TestimonialsSection />
+          <TestimonialsSection />
 
-        <AboutSection />
-        <MissionVisionSection />
-      </main>
-      <Footer />
-    </div>
+          <AboutSection />
+          <MissionVisionSection />
+        </main>
+        <Footer />
+      </div>
+    </OnboardingProvider>
   )
 }
